@@ -9,7 +9,7 @@ on:
 jobs:
 
   build:
-    name: Build
+    name: Test
     runs-on: ubuntu-latest
     steps:
 
@@ -31,6 +31,6 @@ jobs:
         fi
 
     - name: Test
-      run: | 
+      run: |
         cd calculator/
         go test -v .
