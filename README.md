@@ -10,7 +10,7 @@
     go get -v -t -d ./...
     ```
 ## 🚀 Executando os testes
-
+### Testando um pacote específico
 * No terminal, acesse o pacote a ser testado, por exemplo:
   ```bash
   cd calculator
@@ -18,4 +18,10 @@
 * Em seguida execute o comando de teste:
   ```bash
   go test
+  ```
+  
+### Testando o projeto inteiro
+* Execute o comando de teste:
+  ```bash
+  go test -v ./...
   ```
